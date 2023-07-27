@@ -1,0 +1,273 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nev-12 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    position: fixed;
+    width: 100%;
+}
+
+.nev-p {
+    display: flex;
+    margin-left: 100px;
+
+}
+
+.nev-p p {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.nev-content-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nev-head {
+    font-size: 18px;
+}
+
+.nev-button {
+
+    background-color: rgb(44, 132, 255);
+    border: navajowhite;
+    font-size: 10px;
+    height: 30px;
+    padding: 5px 15px;
+    font-weight: 600;
+    color: white;
+    border-radius: 3px;
+}
+
+.section-contain {
+    background-image: url("assets/background.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 40px;
+
+}
+
+.section-contain div div h1 {
+    font-size: 33px;
+    margin: 0;
+    color: #ffffff;
+}
+
+.section-contain div div p {
+    color: #ffffff;
+    margin: 4px;
+    font-size: 12px;
+}
+
+input {
+    border: 0;
+    width: 150px;
+    height: 20px;
+    border: 1px solid #b8b7b7;
+    border-radius: 3px;
+    margin-top: 7px;
+
+
+}
+
+label {
+    margin-top: 15px;
+    font-size: 9px;
+    font-weight: bold;
+}
+
+input::placeholder {
+    padding-left: 8px;
+    font-size: 10px;
+    color: #9e9e9e;
+}
+
+select {
+    margin-top: 7px;
+    height: 25px;
+    width: 150px;
+    border: 1px solid #cac9c9;
+    border-radius: 3px;
+    color: #9e9e9e;
+    font-size: 10px;
+    padding-left: 8px;
+}
+
+.button1 {
+    margin-top: 20px;
+    height: 30px;
+    background-color: #2a67f7;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.lending-12 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+   
+   
+}
+
+.lending-12 .sub-lend {
+    box-shadow: 0.5px 0.5px 4px gray;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #ffffff;
+
+}
+
+.main-lend {
+    padding: 30px 0;
+    background-color: #f8f8f8;
+    
+
+}
+.main-len {
+    padding: 30px 0;
+    background-color: #ffffff;
+    
+
+}
+.land-para {
+    font-size: 9px;
+
+}
+
+.land-para p {
+    margin: 5px;
+    color: #727272;
+}
+.seconddiv{
+    display: flex;
+    padding: 50px 0px;
+    margin: 10px;
+ 
+   
+
+}
+.para-29{
+    font-size: 9px;
+    background-color: white;
+    color: #727272;
+    border-radius: 5px;
+    padding: 20px 10px;
+    border: 1px solid rgb(56, 163, 252);
+}
+.divcon{
+    display: flex;
+    justify-content: center;
+}
+.flex-pi{
+    display: flex;
+    align-items: start;
+    margin: 50px 0;
+}
+.faq-heading{
+    font-size: 11px;
+    font-weight: bold;
+    margin-bottom: 10px;
+   
+}
+.faq-heading p{
+    margin: 2px;
+}
+.faq-heading2{
+    font-size: 10px;
+    color: #727272;
+}
+.faq-heading2 p{
+    margin: 3px;
+}
+.flex-pii{
+    display: flex;
+    justify-content: center;
+}
+.margin-f{
+    margin: 30px ;
+}
+.flex-tom{
+    display: flex;
+    align-items: start;
+    font-size: 10px;
+    margin-top: 13px;
+    font-weight: bold;
+}
+.white1{
+    background-color: #f5fdff;
+    border: 1px solid #43b4ff;
+    text-align: center;
+    border-radius: 5px;
+    margin: 40px 0; 
+    padding: 10px 15px;
+    width: 160px;
+
+}
+.white2{
+    background-color: #010202;
+    border: 1px solid #43b4ff;
+    text-align: center;
+    border-radius: 5px;
+    margin: 40px 0; 
+    padding: 10px 15px;
+    width: 160px;
+    height: 430px;
+    
+
+}
+.flex-com{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+  
+}
+.pricing{
+    background-color: #f8f8f8;;
+    padding: 20px 0;
+}
+.flex-som{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1b2121;
+    color: white;
+    padding: 40px 0;
+}
+.new-item{
+    font-size: 10px;
+
+}
+.new-item p{
+margin: 0;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    padding: 30px 0px;
+}
+.footer div h1{
+    font-size: 16px;
+}
+.footer div p{
+    font-size: 10px;
+    color: #727272;
+  
+}

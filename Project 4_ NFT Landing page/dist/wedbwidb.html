@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    .custom-gradient {
+      background: conic-gradient(
+        from 0deg,
+        pink 0%,
+        pink 10%,
+        skyblue 20%,
+        blue 70%,
+        pink 70%,
+        pink 100%
+      );
+      background-size: 200% 200%;
+    }
+
+    /* Ensuring that the circular gradient is contained within a square element */
+    .custom-gradient::before {
+      content: "";
+      display: block;
+      padding-top: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="custom-gradient absolute inset-0"></div>
+  <!-- Your content goes here -->
+  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et delectus quam dicta saepe, quos libero impedit esse minus illum sed, itaque quaerat aspernatur dolore excepturi quae nulla error quisquam, incidunt fugiat consequuntur doloremque corrupti. Dignissimos autem possimus, dolorem delectus officiis magnam labore eligendi quibusdam ad in alias culpa obcaecati explicabo perferendis nostrum nulla sed eos accusantium? A sint iste necessitatibus natus aut praesentium, architecto optio quidem distinctio veritatis, excepturi amet laborum, omnis alias officia ducimus quasi ipsa! Et, a doloremque, asperiores quidem cupiditate consequatur totam placeat deserunt recusandae quos pariatur eum repellendus mollitia officia porro itaque nostrum molestiae laborum debitis.
+</body>
+</html>
